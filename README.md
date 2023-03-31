@@ -50,7 +50,7 @@ theta=np.zeros((2,1))
 computeCost(X,y,theta)#Call the function
 
 def gradientDescent(X,y,theta,alpha,num_iters):
-    #Take in numpy array X,y, and theta and update theta by taking num with learining rate of alpha
+    #Take in numpy array X,y and theta and update theta by taking num_iters with learning rate of alpha
     #return theta and list of the cost of theta during each iteration
     m=len(y)
     J_history=[]
@@ -84,7 +84,7 @@ plt.title("Profit Prediction")
 
 #Making predictions using optimized theta values
 def predict(x,theta):
-    #Takes in numpy array of x and theta and retirn the predicted value of y based on theta
+    #Takes in numpy array of x and theta and return the predicted value of y based on theta
     predictions=np.dot(theta.transpose(),x)
     return predictions[0]
 
