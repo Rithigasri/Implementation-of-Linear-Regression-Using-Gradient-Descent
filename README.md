@@ -1,4 +1,4 @@
-# IMPLEMENTATION OF LINEAR REGRESSION USING GRADIENT DESCENT
+# EXPERIMENT 03:IMPLEMENTATION OF LINEAR REGRESSION USING GRADIENT DESCENT
 ## AIM:  
 To write a program to predict the profit of a city using the linear regression model with gradient descent.
 
@@ -96,21 +96,20 @@ print("For population= 70,000, we predict a profit of $"+str(round(predict2,0)))
 ```
 
 ## OUTPUT:
-* GRAPH PLOT FOR PROFIT PREDICTION:    
+* PROFIT PREDICTION GRAPH:    
 ![image](https://user-images.githubusercontent.com/93427256/229015326-b253ed99-d2ff-4425-bc65-8f233a0eff4d.png)
-* OUTPUT OF THE FUNCTION CALL:    
-![image](https://user-images.githubusercontent.com/93427256/229016413-c6352355-e6ec-4097-bc7f-a30abfb26e94.png)
-* GRADIENT DESCENT:    
-![image](https://user-images.githubusercontent.com/93427256/229015651-acd855a6-4bc2-4ed9-a6f8-2999d1c88303.png)
-* COST FUNCTION USING GRADIENT DESCENT:  
+* COMPUTE COST VALUE:    
+![image](https://user-images.githubusercontent.com/93427256/229277310-253cd58e-eabe-43e1-878d-51b2f92037dd.png)
+* h(x) VALUE:    
+![image](https://user-images.githubusercontent.com/93427256/229277332-4bef71e3-2dac-4a5e-a92e-f198662437df.png)
+* COST FUNCTION USING GRADIENT DESCENT GRAPH:  
 ![image](https://user-images.githubusercontent.com/93427256/229015762-3a2d8945-a9cf-4fec-91a1-6954ddf4e21d.png)
-* GRAPH WITH LINE OF BEST FIT:    
+* PROFIT PREDICTION GRAPH:    
 ![image](https://user-images.githubusercontent.com/93427256/229015846-df92a4dd-ed5f-4d03-b771-96081fbca504.png)
-### MAKING PREDICTIONS USING OPTIMIZED THETA VALUES:  
-* (i)PROFIT PREDICTION FOR POPULATION OF 35000:    
-![image](https://user-images.githubusercontent.com/93427256/229015991-514f5684-12c8-4c60-abbc-578e15200551.png)
-* (ii)PROFIT PREDICTION FOR POPULATION OF 70000:    
-![image](https://user-images.githubusercontent.com/93427256/229016071-8d1e6f8e-df0f-4d22-af09-c2fa739e8783.png)
+* PROFIT FOR THE POPULATION OF 35000:    
+![image](https://user-images.githubusercontent.com/93427256/229277363-d7c1212c-b3d2-4f48-a31f-829f0b439420.png)
+* PROFIT FOR THE POPULATION OF 70000:    
+![image](https://user-images.githubusercontent.com/93427256/229277389-11ec99dc-b06a-4e31-8b27-4396e819e21e.png)
 
 ## RESULT:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
